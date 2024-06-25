@@ -1,0 +1,28 @@
+button {
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button-click {
+  background-color: #dde020;
+}
+
+.button-click:hover {
+  background-color: #92940e;
+}
+
+.resert-button {
+  background-color: #9e61d4;
+}
+
+.resert-button:hover {
+  background-color: #5a01a7;
+}
