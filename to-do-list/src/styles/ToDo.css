@@ -1,0 +1,33 @@
+.to-do-container {
+  width: 500px;
+  min-height: 65px;
+  background-color: #1b1b32;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  border: 1px solid white;
+  align-items: center;
+  cursor: pointer;
+}
+
+.to-do-text {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere; /*El texto sera cortado para seguir hacia abajo*/
+}
+
+.to-do-icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.to-do-container.complete {
+  background-color: #5a01a7;
+  text-decoration: line-through; /*Linea de techado*/
+}
