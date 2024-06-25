@@ -1,0 +1,40 @@
+.row {
+  color: white;
+}
+
+.button-clear,
+.button-container {
+  height: 83px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none; /* EL texto no se selecciona. */
+}
+
+
+.operator {
+  background-color:   #FF9500;
+}
+
+.number-cero,
+.number {
+  background-color:#333;
+  color: #fff;
+}
+
+.number-cero {
+  flex: 2;
+}
+
+.button-clear,
+.others {
+  background-color: #A5A5A5;
+  color: #000;
+}
