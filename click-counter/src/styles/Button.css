@@ -20,6 +20,7 @@ button {
 }
 
 .resert-button {
+  transition: background-color 0.3s ease;
   background-color: #9e61d4;
 }
 

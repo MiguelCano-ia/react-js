@@ -7,13 +7,13 @@
 html,
 body {
   color: white;
-  background-color: #1b1b32;
+  background-color: #000;
   font-family: Lato, sans-serif;
   margin-top: 40px;
 }
 
-h1 {
-  color: #1b1b32;
+.my-taks {
+  color: #2e3b4e;
   font-size: 25px;
   font-family: Roboto, sans-serif;
   text-align: center;
@@ -24,20 +24,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-
-.image-container {
-  width: 100%;
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  width: 400px;
-  height: 50px;
+  gap: 2rem;
+  
 }
 
 /* Lista de tareas */
@@ -47,5 +37,5 @@ h1 {
   min-height: 500px;
   background-color: #d0d0d5;
   margin: 10px;
-  border-radius: 26px;
+  border-radius: 20px;
 }

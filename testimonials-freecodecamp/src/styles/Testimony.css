@@ -1,38 +1,51 @@
+/* Estilos para el componente Testimony */
 .testimony-container {
-  width: 1170px;
+  width: 100%; 
+  max-width: 600px; 
   height: 368px;
-  margin: 10px 10px 50px;
+  margin-bottom: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.testimony-container:hover {
+  transform: translateY(-5px); 
 }
 
 .image-testimony {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 80%; 
+  max-height: 200px; 
+  object-fit: contain; 
 }
 
 .container-text-testimony {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   font-family: Lato, sans-serif;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 .name-testimony {
   font-size: 1.3rem;
+  color: #333; 
 }
 
 .charge-testimony {
-  font-size: 1.3rem;
-  margin-top: 15px;
-  padding-bottom: 30px;
+  font-size: 1.1rem;
+  color: #555; 
+  margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 .text-testimony {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: justify;
+  color: #666; 
 }

@@ -4,14 +4,9 @@ import ToDoList from './components/ToDoList';
 function App() {
   return (
     <div className="App">
-      <div className='container-image'>
-        <img
-          src={a}
-          className='image'
-        />
-      </div>
+      <h1>React To Do List</h1>
       <div className='main-todo-list'>
-        <h1>Mis Tareas</h1>
+        <h1 className='my-taks'>My Taks</h1>
         <ToDoList></ToDoList>
       </div>
     </div>

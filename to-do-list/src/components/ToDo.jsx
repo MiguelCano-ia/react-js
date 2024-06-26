@@ -2,17 +2,17 @@ import React from "react";
 import '../styles/ToDo.css';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
-const ToDo = ({ id, text, complete, toDoComplete, deleteToDo }) => (
-  <div className={complete ? 'to-do-container complete' : 'to-do-container'}>
+const ToDo = ({ id, text, completed, taskCompleted, deleteTask }) => (
+  <div className={completed ? 'to-do-container complete' : 'to-do-container'}>
     <div
       className="to-do-text"
-      onClick={() => toDoComplete(id)}
-      >
+      onClick={() => taskCompleted(id)}
+    >
       {text}
     </div>
     <div
       className="to-do-icons-container"
-      onClick={() => deleteToDo(id)}
+      onClick={() => deleteTask(id)}
     >
       <AiOutlineCloseCircle className="to-do-icon" />
     </div>
